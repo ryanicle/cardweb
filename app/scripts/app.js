@@ -18,6 +18,12 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  .constant(
+    'API', {
+      baseUrl: 'http://localhost:3000/api/v1/',
+      format: '.json'
+    }
+  )
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

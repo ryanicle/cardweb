@@ -8,9 +8,9 @@
  * Controller of the creditCardApp
  */
 angular.module('creditCardApp')
-  .controller('CardAddCtrl', function ($scope, $http, $routeParams, $location) {
+  .controller('CardAddCtrl', function ($scope, $http, $routeParams, $location, API) {
     
-    var host = 'http://192.168.100.100:3000/api/v1/';
+    var host = API.baseUrl;
     $http({
       url: host + 'cards.json',
       method: 'GET'
