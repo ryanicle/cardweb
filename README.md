@@ -10,3 +10,7 @@ Run `npm install && bower install` for installing dependencies.
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
+
+## App
+
+Open `http://localhost:9000` in browser
