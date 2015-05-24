@@ -14,3 +14,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## App
 
 Open `http://localhost:9000` in browser
+
+## Note
+
+Make sure this app runs on the same host as API runs.
